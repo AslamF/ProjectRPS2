@@ -1,0 +1,79 @@
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+h1, h2{
+    display: flex; 
+    justify-content: center;
+    font-family: 'EthnocentricRg-Regular';
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+    font-family: 'EthnocentricRg-Regular';
+}
+
+.runningscore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    gap: 25px;
+    font-weight: bold;
+    font-family: 'EthnocentricRg-Regular';
+}
+
+.results{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+winner{
+    font-size: 25px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+
+
+@font-face {
+    font-family: 'EthnocentricRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('EthnocentricRg-Regular'), url('ethnocentric rg.woff') format('woff');
+    }
